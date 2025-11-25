@@ -33,21 +33,21 @@ Para ejecutar el pipeline, necesitarás **Python 3.8+** y las dependencias lista
     ```bash
     python3 -m venv venv
     ```
-2.  **Instalar dependencias:** (Asegúrate de que la instalación incluya `pyarrow` para el formato Parquet)
+
+2. **Activación del Entorno:**
+    ```powershell
+    .\venv\Scripts\Activate.ps1
+
+3.  **Instalar dependencias:** (Asegúrate de que la instalación incluya `pyarrow` para el formato Parquet)
     ```bash
     pip install -r requirements.txt
     ```
 
-## Para ejecutar el codigo utilizar este comando
+## 💥 Para ejecutar el codigo utilizar este comando
+
 1. **Comando para ejecución Principal**
     python src/orchestrator/pipeline.py
+
 2. **Comando para visualizar 5 datos finales de los archivos creados .parquet**
     python inspect_data.py
-
-### 2. Activación del Entorno
-
-Debido a las políticas de seguridad en Windows PowerShell, usa la siguiente sintaxis después de resolver la política de ejecución:
-
-```powershell
-.\venv\Scripts\Activate.ps1
-
+    
