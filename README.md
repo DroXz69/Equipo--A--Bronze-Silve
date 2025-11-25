@@ -57,3 +57,43 @@ Para realizar la ejecución del programa sigue estos pasos:
     ```bash
     python inspect_data.py
     ```
+
+
+## ❗❗❗ SI ES QUE HAY UN ENTORNO VIRTUAL CREADO SIGUE ESTOS PASOS ❗❗❗
+
+1. **Desactivar el Entorno Virtual:**
+    ```bash
+    deactivate
+    ```
+
+2. **Eliminar la Carpeta del Entorno Antiguo:**
+    ```bash
+    Remove-Item -Recurse -Force venv
+    ```
+
+3. **Crear un Nuevo Entorno Virtual:**
+    ```bash
+    python -m venv venv
+    ```
+
+4. **Activar el Nuevo Entorno:**
+    ```bash
+    .\venv\Scripts\Activate.ps1
+    ```
+
+5. **Instalar las Dependencias:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+Luego de realizar estos pasos podras ejecutar el programa.
+
+1. **Comando para ejecución Principal**
+    ```bash
+    python src/orchestrator/pipeline.py
+    ```
+
+2. **Comando para visualizar 5 datos finales de los archivos creados .parquet**
+    ```bash
+    python inspect_data.py
+    ```
