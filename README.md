@@ -60,6 +60,12 @@ Se utilizo `Python 3.12.10` para la realizacion del proyecto. [Pagina Oficial de
     python3 -m venv venv
     ```
 
+    o utilizar
+
+    ```bash
+    python -m venv venv
+    ```
+
 2. **Activación del Entorno:**
     ```powershell
     .\venv\Scripts\Activate.ps1
