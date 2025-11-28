@@ -27,10 +27,10 @@ El pipeline se ejecuta secuencialmente, moviendo los datos entre capas:
 
 `Equipo A Bronze/Silver 5 Diciembre.`
 
-* **Daniel Garrido**
-* **Víctor Faúndez**
-* **Camilo Jeldres**
-* **Bruno Polo**
+* **Daniel Garrido - Arquitecto de Código**
+* **Víctor Faúndez - Diseñador de WorkFlow**
+* **Camilo Jeldres - Diseñador de Arquitectura**
+* **Bruno Polo - Diseñador de Arquitectura**
 
 `Sección: TI2081/D-IEI-N8-P1-C2/D Renca IEI`
 
